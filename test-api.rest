@@ -1,0 +1,18 @@
+@BASE_URL = http://127.0.0.1:5000
+
+### GET /test
+GET {{BASE_URL}}/test/ HTTP/1.1
+
+### GET /
+GET {{BASE_URL}}/ HTTP/1.1
+
+### GET /posts
+GET {{BASE_URL}}/posts/ HTTP/1.1
+
+### GET /posts
+GET {{BASE_URL}}/posts/categories/ HTTP/1.1
+
+### GET /questions
+GET {{BASE_URL}}/questions/ HTTP/1.1
+
+
